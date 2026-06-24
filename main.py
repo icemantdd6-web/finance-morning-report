@@ -8,7 +8,7 @@ def main():
     market = fetch_market_data()
     news = fetch_news()
 
-    report = generate_report(market, news)
+    from v2_safe_report import generate_report
 
     today = datetime.now().strftime("%Y-%m-%d")
 
