@@ -22,7 +22,7 @@ def generate_report(market, news):
 """
 
     res = client.chat.completions.create(
-        model="gpt-5.3-mini",
+        model="gpt-4o-mini",
         messages=[
             {"role": "user", "content": prompt}
         ]
